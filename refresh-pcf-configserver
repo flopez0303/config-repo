@@ -1,0 +1,3 @@
+cf update-service p-config-server -c '{"update-git-repos": true }'
+
+curl https://mydemo-boeing-proud-panther.apps.pcfone.io/actuator/refresh -d {} -H "Content-Type: application/json"
